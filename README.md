@@ -2,9 +2,11 @@
 
 ##Grupo constituído por:
 
-	| Nome  |  Número |
-	|---|---|
-	| Catarina Jara  |   |
-	|  Madalena Jorge |   |
-	|  Pedro Luís |   |
-	| Tomás Martin  | 93911  |
+| Nome  |  Número |
+|:-----------------:|:----:|
+| Catarina Jara  |   |
+|  Madalena Jorge | xxxxx  |
+|  Pedro Luís |   |
+| Tomás Martin  | 93911  |
+	
+
