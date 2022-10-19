@@ -1,6 +1,7 @@
 # ES-LETI-1Sem-2022-Grupo-08
 
 ##Grupo constituído por:
+<<<<<<< HEAD
 	
 	| Nome  |  Número |
 	|---|---|
@@ -8,3 +9,14 @@
 	|  Madalena Jorge |   |
 	|  Pedro Luís |   |
 	| Tomás Martin  | 93911  |
+=======
+
+| Nome  |  Número |
+|:-----------------:|:----:|
+| Catarina Jara  |   |
+|  Madalena Jorge | xxxxx  |
+|  Pedro Luís |   |
+| Tomás Martin  | 93911  |
+	
+
+>>>>>>> refs/heads/main
