@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.regex.Pattern;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 /**
  * Hello world!
  *
@@ -19,10 +22,21 @@ public class TestWebCalendarToJSON
     	for (int i = 0; i< strArray.length; i++){  
     		System.out.println(strArray[i]); 
     	}
+    	String jsonArray = jSonArray(strArray);
+    	System.out.println(jsonArray);
+    	
+    	
     	
     	
    
 }
+    
+    private static String jSonArray(String[] strArray) {
+    	Gson gson=new GsonBuilder().create();
+        String jsonArray=gson.toJson(strArray);
+        return jsonArray;
+    	
+    }
     
     private static String[] StrtoStrArray(String calString) {
     	//declaring an empty string array  
