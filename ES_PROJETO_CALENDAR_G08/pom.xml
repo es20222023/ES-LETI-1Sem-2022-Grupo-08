@@ -43,6 +43,13 @@
     <artifactId>biweekly</artifactId>
     <version>0.6.6</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.mongodb/mongodb-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongodb-driver</artifactId>
+    <version>3.12.11</version>
+</dependency>
+
 
   </dependencies>
 
