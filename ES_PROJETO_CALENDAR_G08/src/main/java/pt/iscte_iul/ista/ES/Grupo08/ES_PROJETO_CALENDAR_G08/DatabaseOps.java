@@ -15,15 +15,21 @@ import com.mongodb.client.MongoDatabase;
 public class DatabaseOps
 
 {
-
-
+	String collectionName;
+	
+	DatabaseOps (String user){
+		collectionName = user;
+	}
+	
+	
+	
 	
 	public static void main( String[] args )
 	{
 		try {
 			MongoClient mongodb = new MongoClient("localhost", 27017);
 			MongoDatabase database = mongodb.getDatabase("ProjetoES_DB");
-			MongoCollection<Document> coll= database.getCollection("EVENTS");
+			MongoCollection<Document> coll = database.getCollection("EventosPedro");
 			Document doc = new Document();
 			doc.put("Summary", "EPPDS");
 			doc.put("DATE", "20220912");
@@ -36,7 +42,8 @@ public class DatabaseOps
 		catch (Exception e) {
 			e.printStackTrace();
 		}
-
-
 	}
+	
+	
+	
 }
