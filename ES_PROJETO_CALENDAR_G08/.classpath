@@ -24,6 +24,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="D:/Faculdade/3ºANO/ES/Projeto/slf4j-simple-1.6.1.jar/slf4j-simple-1.6.1.jar"/>
+=======
+	<classpathentry kind="lib" path="D:/Faculdade/3ºANO/ES/Projeto/jackson-core-2.13.0.jar"/>
+>>>>>>> refs/heads/ICStoJSONtestPedro
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
