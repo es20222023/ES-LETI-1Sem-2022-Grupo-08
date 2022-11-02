@@ -1,25 +1,29 @@
 package pt.iscte_iul.ista.ES.Grupo08.ES_PROJETO_CALENDAR_G08;
 
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.Scanner;
 
 import org.apache.commons.lang3.StringUtils;
 import org.bson.Document;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
+
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
 public class URLInfoToDB {
 
 	public static void main(String[] args) {
 		icsToDB();
+		JSONArray output = readFromDB();
+		System.out.println(output.toString());
 	}
 
 	private static void icsToDB() {
@@ -66,7 +70,44 @@ public class URLInfoToDB {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-
 	}
+	
+	@SuppressWarnings("unchecked")
+	private static JSONArray readFromDB() {
+		JSONArray calendar = new JSONArray();
+		JSONParser parser = new JSONParser();  
+		 
+		try {
+			MongoClient mongodb = new MongoClient("localhost", 27017);
+			MongoDatabase database = mongodb.getDatabase("ProjetoES_DB");
+			MongoCollection<Document> coll = database.getCollection("EventosPedro");
+			
+			MongoCursor<Document> cursor = coll.find().iterator();
+			
+			try {
+				while(cursor.hasNext()) {
+					String event = cursor.next().toJson();
+					JSONObject json = (JSONObject) parser.parse(event);
+					calendar.add(json);
+					
+				}
+			} finally {
+				cursor.close();
+			}
+			
+			mongodb.close();
+			
+			
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		return calendar;
+		
+		
+		
+		
+		
+	}
+	
 }
