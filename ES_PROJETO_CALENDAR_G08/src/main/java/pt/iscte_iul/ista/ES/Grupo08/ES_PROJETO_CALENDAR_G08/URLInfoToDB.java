@@ -23,10 +23,10 @@ public class URLInfoToDB {
 	public static void main(String[] args) {
 		icsToDB();
 		JSONArray output = readFromDB();
-		System.out.println(output.toString());
+		System.out.println(output.get(0));
 	}
 
-	private static void icsToDB() {
+	public static void icsToDB() {
 		try {
 			URL url = new URL("https://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=pmaal1@iscte.pt&password=4nW90X1wHzGP2YQc5ardt24MEz9hEACP0uss6KwnUXgO76bZcF2NLXjzdmqaF738FVbA9Uhu3ADP5pAMVBkftzHfDvzoMBMe5jPdWVRboFdCpfW02WbnAnSN6eWkeGd7");
 
@@ -73,7 +73,7 @@ public class URLInfoToDB {
 	}
 	
 	@SuppressWarnings("unchecked")
-	private static JSONArray readFromDB() {
+	public static JSONArray readFromDB() {
 		JSONArray calendar = new JSONArray();
 		JSONParser parser = new JSONParser();  
 		 
