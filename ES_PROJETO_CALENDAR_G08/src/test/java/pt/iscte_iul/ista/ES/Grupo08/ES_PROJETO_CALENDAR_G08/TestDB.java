@@ -5,7 +5,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
 
-
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -75,6 +75,13 @@ public class TestDB {
 		assertFalse(collectionExists2);
 		
 	}
+	
+	
+	@After
+	public void closeClientConnection() {
+		mongodb.close();
+	}
+	
 
 
 
