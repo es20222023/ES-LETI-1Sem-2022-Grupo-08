@@ -6,15 +6,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230427T150000Z",
-    "END" : "20230427T163000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221003T150000Z",
     "END" : "20221003T163000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230214T160000Z",
+    "END" : "20230214T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -33,6 +33,12 @@
     "START" : "20230306T143000Z",
     "END" : "20230306T160000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230207T160000Z",
+    "END" : "20230207T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -60,15 +66,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230516T120000Z",
-    "END" : "20230516T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230314T160000Z",
+    "END" : "20230314T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
-    "START" : "20230324T160000Z",
-    "END" : "20230324T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230516T133000Z",
+    "END" : "20230516T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -84,9 +90,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230223T160000Z",
-    "END" : "20230223T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+    "START" : "20230421T150000Z",
+    "END" : "20230421T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -126,21 +132,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230321T160000Z",
-    "END" : "20230321T173000Z",
+    "START" : "20230509T150000Z",
+    "END" : "20230509T163000Z",
     "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230316T160000Z",
-    "END" : "20230316T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230523T133000Z",
-    "END" : "20230523T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -150,8 +144,8 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230420T133000Z",
-    "END" : "20230420T150000Z",
+    "START" : "20230330T150000Z",
+    "END" : "20230330T163000Z",
     "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
@@ -168,21 +162,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230223T143000Z",
-    "END" : "20230223T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230327T120000Z",
     "END" : "20230327T133000Z",
     "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230511T133000Z",
-    "END" : "20230511T150000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -222,6 +204,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230516T150000Z",
+    "END" : "20230516T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221103T130000Z",
     "END" : "20221103T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -231,12 +219,6 @@
     "START" : "20230424T150000Z",
     "END" : "20230424T163000Z",
     "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230330T150000Z",
-    "END" : "20230330T163000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -300,6 +282,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230214T143000Z",
+    "END" : "20230214T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221122T130000Z",
     "END" : "20221122T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -318,9 +306,27 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230502T133000Z",
+    "END" : "20230502T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
     "START" : "20220920T133000Z",
     "END" : "20220920T150000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230321T130000Z",
+    "END" : "20230321T143000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230523T150000Z",
+    "END" : "20230523T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -336,15 +342,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230302T160000Z",
-    "END" : "20230302T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230517T150000Z",
     "END" : "20230517T163000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230307T143000Z",
+    "END" : "20230307T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -354,15 +360,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20220914T150000Z",
-    "END" : "20220914T163000Z",
-    "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+    "START" : "20230516T120000Z",
+    "END" : "20230516T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
-    "START" : "20230228T130000Z",
-    "END" : "20230228T143000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20220914T150000Z",
+    "END" : "20220914T163000Z",
+    "EVENT" : "Arquitetura de Redes - Network Arquitectures"
   }
 }, {
   "EVENT" : {
@@ -378,9 +384,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230418T150000Z",
-    "END" : "20230418T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230209T160000Z",
+    "END" : "20230209T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -408,15 +414,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20220912T150000Z",
-    "END" : "20220912T163000Z",
-    "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+    "START" : "20230331T150000Z",
+    "END" : "20230331T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
-    "START" : "20230302T143000Z",
-    "END" : "20230302T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+    "START" : "20220912T150000Z",
+    "END" : "20220912T163000Z",
+    "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
   }
 }, {
   "EVENT" : {
@@ -429,6 +435,12 @@
     "START" : "20221128T130000Z",
     "END" : "20221128T143000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230523T133000Z",
+    "END" : "20230523T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -450,9 +462,21 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230223T143000Z",
+    "END" : "20230223T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221129T130000Z",
     "END" : "20221129T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230228T160000Z",
+    "END" : "20230228T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -462,15 +486,27 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230228T130000Z",
+    "END" : "20230228T143000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230418T120000Z",
+    "END" : "20230418T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
     "START" : "20230426T083000Z",
     "END" : "20230426T100000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
   }
 }, {
   "EVENT" : {
-    "START" : "20230228T143000Z",
-    "END" : "20230228T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230324T160000Z",
+    "END" : "20230324T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -489,6 +525,30 @@
     "START" : "20221018T133000Z",
     "END" : "20221018T150000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230511T133000Z",
+    "END" : "20230511T150000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230502T120000Z",
+    "END" : "20230502T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230504T150000Z",
+    "END" : "20230504T163000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230214T130000Z",
+    "END" : "20230214T143000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -513,6 +573,12 @@
     "START" : "20230322T160000Z",
     "END" : "20230322T173000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230309T160000Z",
+    "END" : "20230309T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -558,33 +624,33 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230214T143000Z",
-    "END" : "20230214T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230321T130000Z",
-    "END" : "20230321T143000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221025T150000Z",
     "END" : "20221025T163000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
   }
 }, {
   "EVENT" : {
-    "START" : "20230207T160000Z",
-    "END" : "20230207T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230207T130000Z",
+    "END" : "20230207T143000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
     "START" : "20221107T143000Z",
     "END" : "20221107T160000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230420T133000Z",
+    "END" : "20230420T150000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230310T160000Z",
+    "END" : "20230310T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -600,9 +666,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230516T150000Z",
-    "END" : "20230516T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230314T143000Z",
+    "END" : "20230314T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -630,12 +696,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230505T150000Z",
-    "END" : "20230505T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
     "START" : "20220920T120000Z",
     "END" : "20220920T133000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -654,15 +714,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20220920T150000Z",
-    "END" : "20220920T163000Z",
-    "EVENT" : "Modulação e Codificação - Modulation and Coding"
+    "START" : "20230418T150000Z",
+    "END" : "20230418T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
-    "START" : "20230331T150000Z",
-    "END" : "20230331T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20220920T150000Z",
+    "END" : "20220920T163000Z",
+    "EVENT" : "Modulação e Codificação - Modulation and Coding"
   }
 }, {
   "EVENT" : {
@@ -702,27 +762,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230323T160000Z",
-    "END" : "20230323T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230320T143000Z",
     "END" : "20230320T160000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230224T160000Z",
-    "END" : "20230224T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230428T150000Z",
-    "END" : "20230428T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -744,9 +786,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230418T120000Z",
-    "END" : "20230418T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230328T150000Z",
+    "END" : "20230328T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -774,9 +816,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230509T120000Z",
-    "END" : "20230509T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230428T150000Z",
+    "END" : "20230428T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -792,15 +834,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230210T160000Z",
-    "END" : "20230210T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230308T110000Z",
     "END" : "20230308T123000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230420T150000Z",
+    "END" : "20230420T163000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -840,6 +882,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230505T150000Z",
+    "END" : "20230505T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+  }
+}, {
+  "EVENT" : {
     "START" : "20230306T160000Z",
     "END" : "20230306T173000Z",
     "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
@@ -849,24 +897,6 @@
     "START" : "20230224T080000Z",
     "END" : "20230224T093000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230309T160000Z",
-    "END" : "20230309T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230309T143000Z",
-    "END" : "20230309T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230516T133000Z",
-    "END" : "20230516T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -897,12 +927,6 @@
     "START" : "20221117T130000Z",
     "END" : "20221117T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230207T130000Z",
-    "END" : "20230207T143000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -942,6 +966,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230323T143000Z",
+    "END" : "20230323T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221027T120000Z",
     "END" : "20221027T133000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -960,9 +990,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230511T150000Z",
-    "END" : "20230511T163000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+    "START" : "20230509T120000Z",
+    "END" : "20230509T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -972,27 +1002,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230509T133000Z",
-    "END" : "20230509T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230420T150000Z",
-    "END" : "20230420T163000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221004T120000Z",
     "END" : "20221004T133000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230303T160000Z",
-    "END" : "20230303T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -1008,21 +1020,27 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230214T160000Z",
-    "END" : "20230214T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230418T133000Z",
+    "END" : "20230418T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
-    "START" : "20230214T130000Z",
-    "END" : "20230214T143000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230209T143000Z",
+    "END" : "20230209T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
     "START" : "20221214T143000Z",
     "END" : "20221214T160000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230210T160000Z",
+    "END" : "20230210T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -1056,6 +1074,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230502T150000Z",
+    "END" : "20230502T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+  }
+}, {
+  "EVENT" : {
     "START" : "20230428T070000Z",
     "END" : "20230428T083000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
@@ -1071,12 +1095,6 @@
     "START" : "20230517T100000Z",
     "END" : "20230517T113000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230427T133000Z",
-    "END" : "20230427T150000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1101,6 +1119,12 @@
     "START" : "20230310T080000Z",
     "END" : "20230310T093000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230224T160000Z",
+    "END" : "20230224T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -1140,12 +1164,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230502T150000Z",
-    "END" : "20230502T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230215T160000Z",
     "END" : "20230215T173000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
@@ -1158,27 +1176,21 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20221215T130000Z",
-    "END" : "20221215T143000Z",
-    "EVENT" : "Engenharia de Software - Software Engineering"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230317T160000Z",
-    "END" : "20230317T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230209T143000Z",
-    "END" : "20230209T160000Z",
+    "START" : "20230316T160000Z",
+    "END" : "20230316T173000Z",
     "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
-    "START" : "20230307T160000Z",
-    "END" : "20230307T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230307T130000Z",
+    "END" : "20230307T143000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20221215T130000Z",
+    "END" : "20221215T143000Z",
+    "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
@@ -1200,6 +1212,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230302T143000Z",
+    "END" : "20230302T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20230329T150000Z",
     "END" : "20230329T163000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
@@ -1218,27 +1236,27 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230310T160000Z",
-    "END" : "20230310T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230206T160000Z",
     "END" : "20230206T173000Z",
     "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
-    "START" : "20230228T160000Z",
-    "END" : "20230228T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230316T143000Z",
+    "END" : "20230316T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
     "START" : "20221006T150000Z",
     "END" : "20221006T163000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230330T133000Z",
+    "END" : "20230330T150000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1251,6 +1269,12 @@
     "START" : "20221114T160000Z",
     "END" : "20221114T173000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230302T160000Z",
+    "END" : "20230302T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1272,15 +1296,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230216T160000Z",
-    "END" : "20230216T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20220915T150000Z",
     "END" : "20220915T163000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230216T160000Z",
+    "END" : "20230216T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1296,12 +1320,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230216T143000Z",
-    "END" : "20230216T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221107T130000Z",
     "END" : "20221107T143000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
@@ -1314,33 +1332,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230523T150000Z",
-    "END" : "20230523T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230322T143000Z",
     "END" : "20230322T160000Z",
     "EVENT" : "Sistemas de Comunicação Ótica - Optical Communication Systems"
   }
 }, {
   "EVENT" : {
-    "START" : "20230209T160000Z",
-    "END" : "20230209T173000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221108T160000Z",
     "END" : "20221108T173000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230307T143000Z",
-    "END" : "20230307T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1374,9 +1374,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230314T160000Z",
-    "END" : "20230314T173000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+    "START" : "20230328T120000Z",
+    "END" : "20230328T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1392,6 +1392,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230523T120000Z",
+    "END" : "20230523T133000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221116T143000Z",
     "END" : "20221116T160000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
@@ -1404,39 +1410,21 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230504T150000Z",
-    "END" : "20230504T163000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221025T120000Z",
     "END" : "20221025T133000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
-    "START" : "20230421T150000Z",
-    "END" : "20230421T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230314T143000Z",
-    "END" : "20230314T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20221020T133000Z",
+    "END" : "20221020T150000Z",
+    "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
     "START" : "20230314T130000Z",
     "END" : "20230314T143000Z",
     "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20221020T133000Z",
-    "END" : "20221020T150000Z",
-    "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
@@ -1482,15 +1470,15 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230316T143000Z",
-    "END" : "20230316T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230510T083000Z",
     "END" : "20230510T100000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230512T150000Z",
+    "END" : "20230512T163000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -1509,12 +1497,6 @@
     "START" : "20221006T150000Z",
     "END" : "20221006T163000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230523T120000Z",
-    "END" : "20230523T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1560,15 +1542,21 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230330T133000Z",
-    "END" : "20230330T150000Z",
+    "START" : "20221109T130000Z",
+    "END" : "20221109T143000Z",
+    "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230309T143000Z",
+    "END" : "20230309T160000Z",
     "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
-    "START" : "20221109T130000Z",
-    "END" : "20221109T143000Z",
-    "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
+    "START" : "20230509T133000Z",
+    "END" : "20230509T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1584,12 +1572,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230328T120000Z",
-    "END" : "20230328T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221214T130000Z",
     "END" : "20221214T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -1602,20 +1584,14 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230502T120000Z",
-    "END" : "20230502T133000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
     "START" : "20230315T093000Z",
     "END" : "20230315T110000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
   }
 }, {
   "EVENT" : {
-    "START" : "20230328T150000Z",
-    "END" : "20230328T163000Z",
+    "START" : "20230307T160000Z",
+    "END" : "20230307T173000Z",
     "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
@@ -1650,9 +1626,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230328T133000Z",
-    "END" : "20230328T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230504T133000Z",
+    "END" : "20230504T150000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1674,6 +1650,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230317T160000Z",
+    "END" : "20230317T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
+  }
+}, {
+  "EVENT" : {
     "START" : "20220922T133000Z",
     "END" : "20220922T150000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
@@ -1683,6 +1665,12 @@
     "START" : "20221024T120000Z",
     "END" : "20221024T133000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230228T143000Z",
+    "END" : "20230228T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1731,12 +1719,6 @@
     "START" : "20221121T143000Z",
     "END" : "20221121T160000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230418T133000Z",
-    "END" : "20230418T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1806,6 +1788,12 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230427T150000Z",
+    "END" : "20230427T163000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221003T133000Z",
     "END" : "20221003T150000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
@@ -1830,9 +1818,9 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230323T143000Z",
-    "END" : "20230323T160000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+    "START" : "20230303T160000Z",
+    "END" : "20230303T173000Z",
+    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
   "EVENT" : {
@@ -1854,27 +1842,27 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230223T160000Z",
+    "END" : "20230223T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20221124T130000Z",
     "END" : "20221124T143000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
-    "START" : "20230207T143000Z",
-    "END" : "20230207T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+    "START" : "20230323T160000Z",
+    "END" : "20230323T173000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
     "START" : "20230315T110000Z",
     "END" : "20230315T123000Z",
     "EVENT" : "Desenvolvimento para A Internet e Aplicações Móveis - Development"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230504T133000Z",
-    "END" : "20230504T150000Z",
-    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -1896,8 +1884,14 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230509T150000Z",
-    "END" : "20230509T163000Z",
+    "START" : "20230216T143000Z",
+    "END" : "20230216T160000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230321T160000Z",
+    "END" : "20230321T173000Z",
     "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
   }
 }, {
@@ -1911,6 +1905,12 @@
     "START" : "20221206T160000Z",
     "END" : "20221206T173000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230207T143000Z",
+    "END" : "20230207T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
@@ -1962,12 +1962,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230321T143000Z",
-    "END" : "20230321T160000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221026T120000Z",
     "END" : "20221026T133000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
@@ -1986,12 +1980,6 @@
   }
 }, {
   "EVENT" : {
-    "START" : "20230307T130000Z",
-    "END" : "20230307T143000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
-  }
-}, {
-  "EVENT" : {
     "START" : "20221207T130000Z",
     "END" : "20221207T143000Z",
     "EVENT" : "Electrónica Programada e Processamento Digital de Sinais - Progra"
@@ -2001,6 +1989,12 @@
     "START" : "20220922T150000Z",
     "END" : "20220922T163000Z",
     "EVENT" : "Arquitetura de Redes - Network Arquitectures"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230511T150000Z",
+    "END" : "20230511T163000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
   }
 }, {
   "EVENT" : {
@@ -2028,27 +2022,33 @@
   }
 }, {
   "EVENT" : {
+    "START" : "20230427T133000Z",
+    "END" : "20230427T150000Z",
+    "EVENT" : "Sistemas de Comunicação Sem Fios e Móveis - Wireless and Mobile C"
+  }
+}, {
+  "EVENT" : {
     "START" : "20220915T120000Z",
     "END" : "20220915T133000Z",
     "EVENT" : "Engenharia de Software - Software Engineering"
   }
 }, {
   "EVENT" : {
+    "START" : "20230328T133000Z",
+    "END" : "20230328T150000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
+    "START" : "20230321T143000Z",
+    "END" : "20230321T160000Z",
+    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
+  }
+}, {
+  "EVENT" : {
     "START" : "20220913T133000Z",
     "END" : "20220913T150000Z",
     "EVENT" : "Modulação e Codificação - Modulation and Coding"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230512T150000Z",
-    "END" : "20230512T163000Z",
-    "EVENT" : "Segurança e Gestão de Redes - Network Security and Management"
-  }
-}, {
-  "EVENT" : {
-    "START" : "20230502T133000Z",
-    "END" : "20230502T150000Z",
-    "EVENT" : "Projecto de Sistemas de Telecomunicações - Telecommunication Syst"
   }
 }, {
   "EVENT" : {
