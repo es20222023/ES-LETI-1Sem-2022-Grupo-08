@@ -1,4 +1,4 @@
-package pt.iscte_iul.ista.ES.Grupo08.ES_PROJETO_CALENDAR_G08;
+package com.davidmoodie.SwingCalendar;
 
 import javax.swing.*;
 import javax.swing.event.EventListenerList;
@@ -17,8 +17,8 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public abstract class Calendar extends JComponent {
-    protected static final LocalTime START_TIME = LocalTime.of(7, 0);
-    protected static final LocalTime END_TIME = LocalTime.of(20, 0);
+    protected static final LocalTime START_TIME = LocalTime.of(9, 0);
+    protected static final LocalTime END_TIME = LocalTime.of(17, 0);
 
     protected static final int MIN_WIDTH = 600;
     protected static final int MIN_HEIGHT = MIN_WIDTH;
@@ -37,7 +37,7 @@ public abstract class Calendar extends JComponent {
     private EventListenerList listenerList = new EventListenerList();
 
     public Calendar() {
-        this(new ArrayList<CalendarEvent>());
+        this(new ArrayList<>());
     }
 
     Calendar(ArrayList<CalendarEvent> events) {
