@@ -23,7 +23,7 @@ public class URLInfoToDB {
 	public static void main(String[] args) {
 		icsToDB();
 		JSONArray output = readFromDB();
-		System.out.println(output.get(0));
+		System.out.println(output);
 	}
 
 	public static void icsToDB() {
@@ -103,9 +103,6 @@ public class URLInfoToDB {
 			e.printStackTrace();
 		}
 		return calendar;
-		
-		
-		
 		
 		
 	}
