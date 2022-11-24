@@ -40,7 +40,7 @@ public class URLInfoToDBTest {
 		assertEquals(fourthKey, expectedFourthKey);
 		
 		JSONObject second = (JSONObject) events.get(1);
-		ArrayList<String> list2 = new ArrayList<String>(first.keySet());
+		ArrayList<String> list2 = new ArrayList<String>(second.keySet());
 		String firstKey2 = list2.get(0);
 		String secondKey2 = list2.get(1);
 		String thirdKey2 = list2.get(2);
