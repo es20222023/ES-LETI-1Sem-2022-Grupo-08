@@ -15,6 +15,7 @@ public class EventsFromDBToCalendar {
 		for(int i = 0; i < events.size(); i++) {
 			
 			
+			
 		}
 		
 		
