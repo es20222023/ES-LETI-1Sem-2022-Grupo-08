@@ -12,7 +12,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-
+import com.davidmoodie.SwingCalendar.WeekCalendar;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
@@ -24,6 +24,10 @@ public class URLInfoToDB {
 		icsToDB();
 		JSONArray output = readFromDB();
 		System.out.println(output);
+		EventsFromDBToCalendar ev = new EventsFromDBToCalendar();
+		WeekCalendar cal = new WeekCalendar(ev.JSonObjectToCalendarEvent(output));
+		
+		
 	}
 
 	public static void icsToDB() {
