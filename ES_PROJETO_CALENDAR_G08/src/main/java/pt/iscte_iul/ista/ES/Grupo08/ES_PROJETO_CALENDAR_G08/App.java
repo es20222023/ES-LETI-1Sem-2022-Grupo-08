@@ -21,14 +21,25 @@ public class App {
 		start_frame.setSize(800, 800);  
 	    start_frame.setLayout(null);  
 	    start_frame.setVisible(true);   
-	    start_frame.add(calendar_button);
 	    start_frame.add(input_URI);
 	    start_frame.add(calendar_names);
-	    calendar_button.setBounds(50, 100, 150, 30); 
+	    uri_button.setBounds(50, 100, 150, 30); 
+	    uri_button.addActionListener(new ActionListener() { // Action to be performed when "Enter" key is pressed
+	        @Override
+	        public void actionPerformed(ActionEvent e) {
+	        	//add methods to save URIs
+	        }
+	    });
+	    start_frame.add(calendar_button);
+	    start_frame.add(uri_button);
+	    JFrame calendar_frame = new JFrame(); //creates the calendar frame
+	    calendar_button.setBounds(300, 100, 150, 30);
 	    calendar_button.addActionListener(new ActionListener() { // Action to be performed when "Enter" key is pressed
 	        @Override
 	        public void actionPerformed(ActionEvent e) {
-	        	
+	        	//add methods to save URIs
+	        	start_frame.setVisible(false);
+	        	calendar_frame.setVisible(true);
 	        }
 	    });
 		
@@ -40,7 +51,6 @@ public class App {
 		
 		
 		
-		JFrame calendar_frame = new JFrame(); //creates the calendar frame
 		
 		ArrayList<CalendarEvent> events = new ArrayList<>();
 		events.add(new CalendarEvent(LocalDate.of(2022, 11, 11), LocalTime.of(14, 0), LocalTime.of(14, 20), "Test 11/11 14:00-14:20"));		
@@ -78,6 +88,16 @@ public class App {
 
         calendar_frame.add(cal, BorderLayout.CENTER);
         calendar_frame.setSize(1000, 900);
+        JButton back_button = new JButton("Back");
+        back_button.setBounds(50, 2, 50, 35);
+        weekControls.add(back_button);
+        back_button.addActionListener(new ActionListener() { // Action to be performed when "Enter" key is pressed
+	        @Override
+	        public void actionPerformed(ActionEvent e) {
+	        	start_frame.setVisible(true);
+	        	calendar_frame.dispose();
+	        }
+	    });
         //calendar_frame.setVisible(true);
         calendar_frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	}
