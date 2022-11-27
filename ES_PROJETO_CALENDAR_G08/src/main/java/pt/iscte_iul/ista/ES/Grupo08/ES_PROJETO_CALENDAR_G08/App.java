@@ -15,6 +15,11 @@ public class App {
 		JFrame start_frame = new JFrame(); // creates the starting frame
 		JFrame calendar_frame = new JFrame(); // creates the calendar frame
 		//JLabel calendar_names = new JLabel();
+		
+		ImageIcon icon = new ImageIcon("iscte_logo.png");
+		JLabel logo = new JLabel(icon);
+		System.out.println(logo);
+		
 		JLabel calendars_label = new JLabel("Calendars");
 		JLabel uri_label = new JLabel("Lorem Ipsum");
 		JLabel graphics_label = new JLabel("Graphics");
@@ -87,6 +92,7 @@ public class App {
 		uri_label.setBounds(50, 70, 150, 30);
 		calendars_label.setBounds(440, 70, 150, 30);
 		graphics_label.setBounds(440, 250, 150, 30);
+		logo.setBounds(650, 50, 200, 200);
 		input_URI.setBounds(50, 100, 200, 45);
 		uri_button.setBounds(50, 150, 150, 30);		
 		calendar_button.setBounds(440, 100, 150, 30);
@@ -101,6 +107,7 @@ public class App {
 		start_frame.setVisible(true);
 		start_frame.add(input_URI);
 		//start_frame.add(calendar_names);
+		start_frame.add(logo);
 		start_frame.add(calendars_label);
 		start_frame.add(uri_label);
 		start_frame.add(graphics_label);
