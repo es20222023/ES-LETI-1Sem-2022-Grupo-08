@@ -13,15 +13,18 @@ import org.junit.Test;
 
 public class URLInfoToDBTest {
 
+	URLInfoToDB entry;
+	
 	@Before
 	public void setup() {
-		URLInfoToDB.icsToDB();
+		entry = new URLInfoToDB();
+		entry.icsToDB("webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=pmaal1@iscte.pt&password=4nW90X1wHzGP2YQc5ardt24MEz9hEACP0uss6KwnUXgO76bZcF2NLXjzdmqaF738FVbA9Uhu3ADP5pAMVBkftzHfDvzoMBMe5jPdWVRboFdCpfW02WbnAnSN6eWkeGd7");
 	}
 	
 	@SuppressWarnings("unchecked")
 	@Test
 	public void test() {
-		JSONArray events = URLInfoToDB.readFromDB();
+		JSONArray events = entry.readFromDB(entry.username);
 		JSONObject first = (JSONObject) events.get(0);
 		ArrayList<String> list = new ArrayList<String>(first.keySet());
 		String firstKey = list.get(0);
