@@ -79,6 +79,7 @@ public class URLInfoToDB {
 			e.printStackTrace();
 		}
 	}
+
 	
 	@SuppressWarnings("unchecked")
 	public JSONArray readFromDB(String username) {
