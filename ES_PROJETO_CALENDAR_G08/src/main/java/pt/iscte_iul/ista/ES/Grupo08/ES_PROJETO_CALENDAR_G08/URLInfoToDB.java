@@ -12,8 +12,12 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-import com.davidmoodie.SwingCalendar.WeekCalendar;
-import com.mongodb.MongoClient;
+
+import com.mongodb.ConnectionString;
+
+import com.mongodb.MongoClientSettings;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
@@ -30,6 +34,7 @@ public class URLInfoToDB {
 		entry.icsToDB("webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=pmaal1@iscte.pt&password=4nW90X1wHzGP2YQc5ardt24MEz9hEACP0uss6KwnUXgO76bZcF2NLXjzdmqaF738FVbA9Uhu3ADP5pAMVBkftzHfDvzoMBMe5jPdWVRboFdCpfW02WbnAnSN6eWkeGd7");
 		JSONArray output = entry.readFromDB(entry.username);
 		System.out.println(output);
+		System.out.println(output.size());
 		
 	}
 
@@ -41,8 +46,12 @@ public class URLInfoToDB {
 			Scanner s = new Scanner(url.openStream());
 
 			try {
-				MongoClient mongodb = new MongoClient("localhost", 27017);
-				MongoDatabase database = mongodb.getDatabase("ProjetoES_DB");
+				ConnectionString connectionString = new ConnectionString("mongodb+srv://projetoesgrupo08:ProjetoESGrupo08@cluster0.qgzbwsz.mongodb.net/?retryWrites=true&w=majority");
+				MongoClientSettings settings = MongoClientSettings.builder()
+				        .applyConnectionString(connectionString)
+				        .build();
+				MongoClient mongoClient = MongoClients.create(settings);
+				MongoDatabase database = mongoClient.getDatabase("ProjetoES");
 				MongoCollection<Document> coll = database.getCollection("Eventos_"+username);
 				
 			
@@ -68,7 +77,7 @@ public class URLInfoToDB {
 
 				}
 				
-			mongodb.close();
+	
 			} 
 			catch (Exception e) {
 				e.printStackTrace();
@@ -87,9 +96,13 @@ public class URLInfoToDB {
 		JSONParser parser = new JSONParser();  
 		 
 		try {
-			MongoClient mongodb = new MongoClient("localhost", 27017);
-			MongoDatabase database = mongodb.getDatabase("ProjetoES_DB");
-			MongoCollection<Document> coll = database.getCollection("Eventos_" + username);
+			ConnectionString connectionString = new ConnectionString("mongodb+srv://projetoesgrupo08:ProjetoESGrupo08@cluster0.qgzbwsz.mongodb.net/?retryWrites=true&w=majority");
+			MongoClientSettings settings = MongoClientSettings.builder()
+			        .applyConnectionString(connectionString)
+			        .build();
+			MongoClient mongoClient = MongoClients.create(settings);
+			MongoDatabase database = mongoClient.getDatabase("ProjetoES");
+			MongoCollection<Document> coll = database.getCollection("Eventos_"+username);
 			
 			MongoCursor<Document> cursor = coll.find().iterator();
 			
@@ -104,7 +117,7 @@ public class URLInfoToDB {
 				cursor.close();
 			}
 			
-			mongodb.close();
+		
 			
 			
 		}
