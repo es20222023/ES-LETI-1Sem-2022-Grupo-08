@@ -1,5 +1,6 @@
 package pt.iscte_iul.ista.ES.Grupo08.ES_PROJETO_CALENDAR_G08;
 
+import java.awt.Color;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class EventsFromDBToCalendar {
 		dia = 0; mes = 0; ano = 0; hora_inicio = 0; minutos_inicio = 0; hora_fim = 0; minutos_fim = 0;
 	}
 	
-	public ArrayList<CalendarEvent> JSonObjectToCalendarEvent(JSONArray events){
+	public ArrayList<CalendarEvent> JSonObjectToCalendarEvent(JSONArray events, Color color){
 		JSONObject obj = new JSONObject();
 		
 		String summary = null;
@@ -29,7 +30,7 @@ public class EventsFromDBToCalendar {
 			getDayAndTime((String) obj.get("START"), true);
 			getDayAndTime((String) obj.get("END"), false);
 			
-			calendarEventList.add(new CalendarEvent(LocalDate.of(ano, mes, dia), LocalTime.of(hora_inicio, minutos_inicio), LocalTime.of(hora_fim, minutos_fim), summary));
+			calendarEventList.add(new CalendarEvent(LocalDate.of(ano, mes, dia), LocalTime.of(hora_inicio, minutos_inicio), LocalTime.of(hora_fim, minutos_fim), summary, color));
 		}
 		
 		

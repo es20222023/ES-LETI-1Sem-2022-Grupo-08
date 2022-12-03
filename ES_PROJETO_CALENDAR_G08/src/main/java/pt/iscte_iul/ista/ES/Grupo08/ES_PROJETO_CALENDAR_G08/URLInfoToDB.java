@@ -117,9 +117,7 @@ public class URLInfoToDB {
 				cursor.close();
 			}
 			
-		
-			
-			
+	
 		}
 		catch (Exception e) {
 			e.printStackTrace();
