@@ -30,7 +30,6 @@ public class EventsFromDBToCalendar {
 			getDayAndTime((String) obj.get("END"), false);
 			
 			calendarEventList.add(new CalendarEvent(LocalDate.of(ano, mes, dia), LocalTime.of(hora_inicio, minutos_inicio), LocalTime.of(hora_fim, minutos_fim), summary));
-
 		}
 		
 		
