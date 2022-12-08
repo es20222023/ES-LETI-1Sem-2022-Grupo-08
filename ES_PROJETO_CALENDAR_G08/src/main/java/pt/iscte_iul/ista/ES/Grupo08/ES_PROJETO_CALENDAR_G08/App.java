@@ -1,6 +1,7 @@
 package pt.iscte_iul.ista.ES.Grupo08.ES_PROJETO_CALENDAR_G08;
 
 import com.davidmoodie.SwingCalendar.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -29,10 +30,7 @@ public class App {
 		JFrame calendar_frame3 = new JFrame(); // creates the calendar frame
 		//JLabel calendar_names = new JLabel();
 
-		ImageIcon icon = new ImageIcon("/ES_PROJETO_CALENDAR_G08/src/main/java/pt/iscte_iul/ista/ES/Grupo08/ES_PROJETO_CALENDAR_G08/iscte_logo.png");
-		JLabel logo = new JLabel(icon);
-		System.out.println(icon);
-
+		
 		JTextArea instructions = new JTextArea("(Opcional) Apagar os calendários já existentes\n\n1. Introduzir URIs\n\n2. Introduzir usernames\n\n3. Visualizar calendários");
 		
 		JLabel calendars_label = new JLabel("Calendars");
@@ -127,7 +125,8 @@ public class App {
 		clear_db_button.addActionListener(new ActionListener() { // Action to be performed button is pressed
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				//comando para limpar db
+				DB_Operations entry = new DB_Operations();
+				entry.clearDB();
 			}
 		});
 
@@ -371,7 +370,6 @@ public class App {
 		calendars_label.setBounds(440, 70, 150, 30);
 		graphics_label.setBounds(440, 250, 150, 30);
 		instructions.setBounds(400, 400, 350, 350);
-		logo.setBounds(650, 50, 200, 200);
 		input_URI.setBounds(50, 100, 200, 45);
 		input_person1.setBounds(600, 131, 100, 30);
 		input_person2.setBounds(600, 162, 100, 30);
@@ -393,7 +391,6 @@ public class App {
 		start_frame.setVisible(true);
 		start_frame.add(input_URI);
 		//start_frame.add(calendar_names);
-		start_frame.add(logo);
 		start_frame.add(instructions);
 		start_frame.add(calendars_label);
 		start_frame.add(uri_label);
