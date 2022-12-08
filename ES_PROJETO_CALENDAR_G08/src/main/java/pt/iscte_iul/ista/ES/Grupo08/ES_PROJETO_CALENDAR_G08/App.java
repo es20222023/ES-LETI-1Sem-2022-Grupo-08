@@ -10,11 +10,22 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
+/**
+ * 
+ * @author Tomás Martins
+ *
+ */
 public class App {
 	static int count = 0;
 
 	//	static String[] username_list = new String[3];
 
+	
+	/**
+	 * Method to create and draw all windows and elements of the GUI.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		String[] url_list = new String[3];
