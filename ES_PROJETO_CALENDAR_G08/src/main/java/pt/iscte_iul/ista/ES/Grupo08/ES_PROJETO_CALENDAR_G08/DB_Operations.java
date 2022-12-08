@@ -22,15 +22,15 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
-public class URLInfoToDB {
+public class DB_Operations {
 
 	String username;
-	public URLInfoToDB() {
+	public DB_Operations() {
 		username = "";
 	}
 	
 	public static void main(String[] args) {
-		URLInfoToDB entry = new URLInfoToDB();
+		DB_Operations entry = new DB_Operations();
 		entry.icsToDB("webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=pmaal1@iscte.pt&password=4nW90X1wHzGP2YQc5ardt24MEz9hEACP0uss6KwnUXgO76bZcF2NLXjzdmqaF738FVbA9Uhu3ADP5pAMVBkftzHfDvzoMBMe5jPdWVRboFdCpfW02WbnAnSN6eWkeGd7");
 		JSONArray output = entry.readFromDB(entry.username);
 		System.out.println(output);

@@ -13,11 +13,11 @@ import org.junit.Test;
 
 public class URLInfoToDBTest {
 
-	URLInfoToDB entry;
+	DB_Operations entry;
 	
 	@Before
 	public void setup() {
-		entry = new URLInfoToDB();
+		entry = new DB_Operations();
 		entry.icsToDB("webcal://fenix.iscte-iul.pt/publico/publicPersonICalendar.do?method=iCalendar&username=pmaal1@iscte.pt&password=4nW90X1wHzGP2YQc5ardt24MEz9hEACP0uss6KwnUXgO76bZcF2NLXjzdmqaF738FVbA9Uhu3ADP5pAMVBkftzHfDvzoMBMe5jPdWVRboFdCpfW02WbnAnSN6eWkeGd7");
 	}
 	

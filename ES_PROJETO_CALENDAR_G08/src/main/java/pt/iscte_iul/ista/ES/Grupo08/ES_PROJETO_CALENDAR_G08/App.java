@@ -46,7 +46,7 @@ public class App {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				ArrayList<CalendarEvent> all_events = new ArrayList<>();
-				URLInfoToDB entry = new URLInfoToDB();
+				DB_Operations entry = new DB_Operations();
 				EventsFromDBToCalendar ev = new EventsFromDBToCalendar();
 				Color[] color_list = {Color.cyan, Color.lightGray, Color.pink};
 				int i = 0;
@@ -112,7 +112,7 @@ public class App {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(count < 3) {
-					URLInfoToDB entry = new URLInfoToDB();
+					DB_Operations entry = new DB_Operations();
 					url_list[count] = input_URI.getText();			
 					entry.icsToDB(url_list[count]);
 					count = count + 1;
@@ -124,7 +124,7 @@ public class App {
 		person1_cal.addActionListener(new ActionListener() { // Action to be performed button is pressed
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				URLInfoToDB entry = new URLInfoToDB();
+				DB_Operations entry = new DB_Operations();
 				EventsFromDBToCalendar ev = new EventsFromDBToCalendar();
 				events.put(username_list[0], ev.JSonObjectToCalendarEvent(entry.readFromDB(username_list[0]), Color.cyan));
 				System.out.println(username_list[0]);
@@ -186,7 +186,7 @@ public class App {
 		person2_cal.addActionListener(new ActionListener() { // Action to be performed button is pressed
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				URLInfoToDB entry = new URLInfoToDB();
+				DB_Operations entry = new DB_Operations();
 				EventsFromDBToCalendar ev = new EventsFromDBToCalendar();
 				events.put(username_list[1], ev.JSonObjectToCalendarEvent(entry.readFromDB(username_list[1]), Color.lightGray));
 				System.out.println(username_list[1]);
@@ -248,7 +248,7 @@ public class App {
 		person3_cal.addActionListener(new ActionListener() { // Action to be performed button is pressed
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				URLInfoToDB entry = new URLInfoToDB();
+				DB_Operations entry = new DB_Operations();
 				EventsFromDBToCalendar ev = new EventsFromDBToCalendar();
 				events.put(username_list[2], ev.JSonObjectToCalendarEvent(entry.readFromDB(username_list[2]), Color.pink));
 				System.out.println(username_list[2]);
