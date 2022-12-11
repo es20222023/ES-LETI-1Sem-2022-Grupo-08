@@ -12,13 +12,31 @@ import org.json.simple.JSONObject;
 
 import com.davidmoodie.SwingCalendar.CalendarEvent;
 
+/**
+ *Class to receive events from MongoDB and return them in the correct format to display.  
+ * @author Pedro Luis
+ * @version 11/12/2022
+ *
+ */
+
 public class EventsFromDBToCalendar {
 	
-	int dia, mes, ano, hora_inicio, minutos_inicio, hora_fim, minutos_fim = 0;
+	
+	int dia, mes, ano, hora_inicio, minutos_inicio, hora_fim, minutos_fim;
+	/**
+	 * Constructor. 
+	 * Initiates all time variables for each Calendar Event with the value 0;
+	 */
 	public EventsFromDBToCalendar() {
 		dia = 0; mes = 0; ano = 0; hora_inicio = 0; minutos_inicio = 0; hora_fim = 0; minutos_fim = 0;
 	}
 	
+	/**
+	 * Put all received events into an Arraylist to build the calendar.
+	 * @param events Array of JSONObjects given by the readFromDB() method in DB_Opreations class.
+	 * @param color Color to display Calendar Events in the UI.
+	 * @return Returns an Arraylist of CalendarEvent that will be used in the UI class to display every event.
+	 */
 	public ArrayList<CalendarEvent> JSonObjectToCalendarEvent(JSONArray events, Color color){
 		JSONObject obj = new JSONObject();
 		
