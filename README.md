@@ -1,6 +1,6 @@
 # ES-LETI-1Sem-2022-Grupo-08
 
-##Grupo constituído por:
+## Grupo constituído por:
 
 | Nome  |  Número |
 |:-----------------:|:----:|
@@ -9,13 +9,13 @@
 | Tomás Martin  | 93911  |
 
 
-##Funcionalidades não implementadas / incompletas:
+## Funcionalidades não implementadas / incompletas:
 -Visualização em modo texto / tabelas
 -Visualização dos calendários apenas em periodos diários ou mensais
 -Não sugere datas
 -Não permite a introdução de eventos
 
-##Descrição de erros
+## Descrição de erros
 -Se tentar visualizar calendários sem por o username previamente, o calendário aparece vazio.
 -Ao visualizar um calendário, esse calendário fica persistente a esse JFrame. É necessário recomeçar a aplicação para ver outro calendário nesse mesmo JFrame.
 
