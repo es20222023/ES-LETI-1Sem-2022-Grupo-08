@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang3.SystemUtils;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -42,18 +42,23 @@ public class EventsFromDBToCalendar {
 		
 		String summary = null;
 		ArrayList<CalendarEvent> calendarEventList = new ArrayList<>();
+	
 		for(int i = 0; i < events.size(); i++) {
+			summary = summary(events, obj, summary, i);
 			obj = (JSONObject) events.get(i);
-			summary = (String) obj.get("SUMMARY");
 			getDayAndTime((String) obj.get("START"), true);
 			getDayAndTime((String) obj.get("END"), false);
 			
 			calendarEventList.add(new CalendarEvent(LocalDate.of(ano, mes, dia), LocalTime.of(hora_inicio, minutos_inicio), LocalTime.of(hora_fim, minutos_fim), summary, color));
 		}
 		
-		
-		
 		return calendarEventList;
+	}
+
+	private String summary(JSONArray events, JSONObject obj, String summary, int i) {
+		obj = (JSONObject) events.get(i);
+		summary = (String) obj.get("SUMMARY");
+		return summary;
 	}
 	
 	private void getDayAndTime(String string, boolean startDate) {

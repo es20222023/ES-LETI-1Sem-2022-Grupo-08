@@ -51,7 +51,6 @@ public class DB_Operations {
 		System.out.println(output);
 		System.out.println(output.size());
 		//entry.clearDB();
-
 	}
 
 	/**
