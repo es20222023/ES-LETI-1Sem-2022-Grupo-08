@@ -24,6 +24,7 @@ public class App {
 	
 	/**
 	 * Method to create and draw all windows and elements of the GUI.
+	 * This method is rather long because all the elements of the GUI have to be inside the same method to work.
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -42,7 +43,7 @@ public class App {
 		//JLabel calendar_names = new JLabel();
 
 		
-		JTextArea instructions = new JTextArea("(Opcional) Apagar os calendários já existentes\n\n1. Introduzir URIs\n\n2. Introduzir usernames\n\n3. Visualizar calendários");
+		JTextArea instructions = new JTextArea("(Opcional) Apagar os calendários já existentes\n\n1. Introduzir URIs\n\n2. Introduzir usernames (iguais aos do Fenix)\n\n3. Visualizar calendários");
 		
 		JLabel calendars_label = new JLabel("Calendars");
 		JLabel uri_label = new JLabel("Load calendar");
@@ -112,7 +113,6 @@ public class App {
 						calendar_frame.dispose();
 					}
 				});
-				// calendar_frame.setVisible(true);
 				calendar_frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 				start_frame.setVisible(false);
 				calendar_frame.setVisible(true);
@@ -196,7 +196,6 @@ public class App {
 						calendar_frame1.dispose();
 					}
 				});
-				// calendar_frame.setVisible(true);
 				calendar_frame1.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 				start_frame.setVisible(false);
 				calendar_frame1.setVisible(true);
@@ -258,7 +257,6 @@ public class App {
 						calendar_frame2.dispose();
 					}
 				});
-				// calendar_frame.setVisible(true);
 				calendar_frame2.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 				start_frame.setVisible(false);
 				calendar_frame2.setVisible(true);
@@ -401,7 +399,6 @@ public class App {
 		start_frame.setLayout(null);
 		start_frame.setVisible(true);
 		start_frame.add(input_URI);
-		//start_frame.add(calendar_names);
 		start_frame.add(instructions);
 		start_frame.add(calendars_label);
 		start_frame.add(uri_label);
