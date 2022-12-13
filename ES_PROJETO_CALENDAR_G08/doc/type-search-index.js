@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pt.iscte_iul.ista.ES.Grupo08.ES_PROJETO_CALENDAR_G08","l":"EventsFromDBToCalendar"}];updateSearchResults();
