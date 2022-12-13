@@ -6,7 +6,7 @@
 |:-----------------:|:----:|
 | Catarina Jara  | 99107  |
 |  Pedro Luís | 92698  |
-| Tomás Martin  | 93911  |
+| Tomás Martins | 93911  |
 
 
 ## Funcionalidades não implementadas / incompletas:
